@@ -1,0 +1,378 @@
+{
+    "basics": {
+        "name": "Ahmad Ali",
+        "label": "Flutter Developer",
+        "image": "",
+        "email": "alee.ahmad512@gmail.com",
+        "phone": "+92 325 551 2727",
+        "summary": "Flutter Developer with hands-on experience in building secure and scalable mobile applications. Proficient in Flutter, Dart, and SQLCipher, with a solid understanding of modular app architecture, performance optimization, and user-centric UI/UX design. Passionate about writing clean, maintainable code and continuously learning modern mobile development practices.",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Islamabad",
+            "countryCode": "",
+            "region": "Pakistan"
+        },
+        "profiles": [
+            {
+                "network": "github",
+                "username": "ahmadahlee",
+                "url": "https://github.com/ahmadahlee"
+            },
+            {
+                "network": "linkedin",
+                "username": "ahmadahlee",
+                "url": "https://linkedin.com/in/ahmadahlee"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "GrithX Solutions (Pvt) Ltd.",
+            "position": "Flutter Developer",
+            "location": "Islamabad, Pakistan · Remote",
+            "startDate": "2025-09",
+            "endDate": "",
+            "summary": "Currently working as a Flutter Developer, contributing to production-level mobile application development.",
+            "highlights": [
+                "Developing, implementing, and maintaining Flutter-based mobile application features using Dart",
+                "Designing and building responsive, reusable, and scalable UI components following Material Design principles",
+                "Applying clean code practices, modular architecture, and separation of concerns to improve maintainability",
+                "Collaborating with cross-functional teams to define, design, and ship new features",
+                "Participating in code reviews to ensure code quality and adherence to best practices",
+                "Testing and debugging mobile applications to ensure smooth performance and user experience",
+                "Optimizing application performance, UI responsiveness, and user experience",
+                "Debugging, testing, and resolving application issues to ensure stability and reliability",
+                "Following version control best practices using Git",
+                "Staying updated with the latest mobile development trends and technologies"
+            ]
+        },
+        {
+            "name": "GrithX Solutions (Pvt) Ltd.",
+            "position": "Flutter Developer (Final Year Project)",
+            "location": "Islamabad, Pakistan · Remote",
+            "startDate": "2024-12",
+            "endDate": "2025-12",
+            "summary": "Worked as a Flutter Developer on a production-grade mobile application as part of a Final Year Project, focusing on secure communication, clean architecture, performance optimization, and automated deployment workflows.",
+            "highlights": [
+                "Designed and developed a production-level mobile application using Flutter and Dart with a modular and scalable architecture",
+                "Implemented end-to-end encryption mechanisms based on industry-standard cryptographic principles",
+                "Worked with secure key exchange and message encryption techniques to ensure data confidentiality",
+                "Integrated encrypted local storage using SQLCipher to protect sensitive application data at rest",
+                "Implemented biometric authentication for secure user access and identity protection",
+                "Added screen protection features to prevent screenshots and screen recording",
+                "Developed real-time messaging workflows with reliable message delivery handling",
+                "Worked with background services and connection management for persistent app functionality",
+                "Built responsive and reusable UI components following Material Design 3 guidelines",
+                "Translated Figma designs into pixel-perfect Flutter UI",
+                "Implemented a CI/CD pipeline to automate build, testing, and deployment processes",
+                "Used Git-based version control and CI workflows to ensure code quality and deployment consistency",
+                "Focused on performance optimization, clean code practices, and long-term maintainability",
+                "Created detailed technical documentation covering architecture, security design, and application workflows"
+            ]
+        },
+        {
+            "name": "Upwork",
+            "position": "UI/UX Designer",
+            "location": "Islamabad, Pakistan",
+            "startDate": "2023-07",
+            "endDate": "2023-12",
+            "summary": "Worked as a UI/UX Designer on freelance projects, designing mobile application interfaces with a strong focus on usability, visual consistency, and user-centered design principles.",
+            "highlights": [
+                "Designed intuitive and user-friendly mobile application interfaces using Figma",
+                "Created wireframes, user flows, interactive prototypes, and high-fidelity mockups",
+                "Applied mobile-first and responsive design principles to enhance user experience",
+                "Collaborated closely with developers to ensure accurate and feasible design implementation",
+                "Conducted design iterations based on feedback to improve usability and visual clarity",
+                "Maintained design consistency through reusable components and design systems",
+                "Focused on accessibility, layout hierarchy, and user experience optimization",
+                "Delivered client-ready UI assets aligned with project requirements and timelines"
+            ]
+        },
+        {
+            "name": "GrithX Solutions (Pvt) Ltd.",
+            "position": "DevOps & Server Administrator",
+            "location": "Islamabad, Pakistan",
+            "startDate": "2020-06",
+            "endDate": "2023-03",
+            "summary": "Worked as a DevOps and Server Administrator, managing web hosting infrastructure, server operations, and client-facing technical support with a focus on reliability, performance, and system stability.",
+            "highlights": [
+                "Managed and administered web hosting servers using cPanel and WHM",
+                "Handled client billing, service provisioning, and account management using WHMCS",
+                "Created, configured, and maintained hosting accounts, domains, and DNS records",
+                "Monitored server uptime, performance, and resource utilization",
+                "Diagnosed and resolved server, network, and hosting-related technical issues",
+                "Ensured server stability, security, and backup management",
+                "Provided customer-focused technical support and issue resolution",
+                "Collaborated with internal teams to maintain service availability and quality"
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "NUML Islamabad",
+            "area": "Information Technology",
+            "studyType": "Bachelors",
+            "startDate": "2022-02",
+            "endDate": "2026-01",
+            "score": "3.1 CGPA",
+            "courses": []
+        },
+        {
+            "institution": "IMCB Islamabad",
+            "area": "Computer Science",
+            "studyType": "FSC",
+            "startDate": "2019-08",
+            "endDate": "2021-07",
+            "score": "738",
+            "courses": []
+        },
+        {
+            "institution": "Air Foundation Islamabad",
+            "area": "Computer Science",
+            "studyType": "Matriculation",
+            "startDate": "2017-03",
+            "endDate": "2019-06",
+            "score": "783",
+            "courses": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "Top 5 FYP – Nexus 2025, NUML",
+            "awarder": "NUML University",
+            "date": "2025-12",
+            "summary": "Participated with the Connectify project in the university-wide Nexus 2025 competition, achieving a Top 5 position and receiving high appreciation from faculty for innovation, security implementation, and technical excellence."
+        }
+    ],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Flutter",
+            "level": "Intermediate",
+            "keywords": [
+                "Flutter Widgets",
+                "Custom UI Components",
+                "State Management",
+                "Clean Architecture",
+                "Modular App Structure",
+                "Responsive UI",
+                "Material Design 3"
+            ]
+        },
+        {
+            "name": "Mobile Application Development",
+            "level": "Intermediate",
+            "keywords": [
+                "Android Application Development",
+                "Cross-Platform Development",
+                "Mobile UI/UX Implementation",
+                "Performance Optimization",
+                "App Lifecycle Management"
+            ]
+        },
+        {
+            "name": "Programming Languages",
+            "level": "Intermediate",
+            "keywords": [
+                "Dart",
+                "Kotlin",
+                "Java",
+                "Object-Oriented Programming",
+                "Asynchronous Programming"
+            ]
+        },
+        {
+            "name": "Databases & Storage",
+            "level": "Intermediate",
+            "keywords": [
+                "SQLite",
+                "Encrypted Local Storage",
+                "SQLCipher",
+                "Data Modeling",
+                "Offline Data Persistence"
+            ]
+        },
+        {
+            "name": "Backend & Cloud Services",
+            "level": "Basic",
+            "keywords": [
+                "Firebase Authentication",
+                "Cloud Firestore",
+                "Firebase Realtime Database",
+                "Backend Integration",
+                "REST API Consumption"
+            ]
+        },
+        {
+            "name": "Security & Networking",
+            "level": "Basic",
+            "keywords": [
+                "Application Security Concepts",
+                "End-to-End Encryption Concepts",
+                "Secure Data Storage",
+                "Network Communication",
+                "Authentication & Authorization"
+            ]
+        },
+        {
+            "name": "DevOps & CI/CD",
+            "level": "Basic",
+            "keywords": [
+                "CI/CD Pipelines",
+                "Build Automation",
+                "Continuous Integration",
+                "Version Control Workflows",
+                "Deployment Automation"
+            ]
+        },
+        {
+            "name": "Web Hosting & Server Management",
+            "level": "Basic",
+            "keywords": [
+                "cPanel",
+                "WHM",
+                "WHMCS",
+                "DNS Management",
+                "Linux Server Basics",
+                "Hosting Infrastructure"
+            ]
+        },
+        {
+            "name": "Tools & Development Platforms",
+            "level": "Intermediate",
+            "keywords": [
+                "Git",
+                "GitHub",
+                "Figma",
+                "Android Studio",
+                "Visual Studio Code",
+                "Postman"
+            ]
+        },
+        {
+            "name": "UI/UX & Design",
+            "level": "Intermediate",
+            "keywords": [
+                "Figma",
+                "Wireframing",
+                "Prototyping",
+                "Design Systems",
+                "Mobile-First Design",
+                "Usability Optimization"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Professional Working Proficiency"
+        },
+        {
+            "language": "Urdu",
+            "fluency": "Native or Bilingual Proficiency"
+        }
+    ],
+    "interests": [
+        {
+            "name": "E-Sports",
+            "keywords": [
+                "Call of Duty",
+                "Fortnite",
+                "Counter-Strike",
+                "Dota",
+                "FIFA"
+            ]
+        },
+        {
+            "name": "Photography Videography",
+            "keywords": [
+                "Mobile Photography",
+                "Cinematic Shots",
+                "Visual Storytelling"
+            ]
+        },
+        {
+            "name": "Content Creation",
+            "keywords": [
+                "Short Video Content",
+                "Social Media Content"
+            ]
+        },
+        {
+            "name": "Sports",
+            "keywords": [
+                "Cricket",
+                "Football"
+            ]
+        }
+    ],
+    "references": [],
+    "projects": [
+        {
+            "name": "Connectify",
+            "description": "A production-grade, privacy-focused peer-to-peer messaging application designed for anonymous and secure communication without requiring phone numbers or centralized servers.",
+            "highlights": [
+                "Integrated a real Tor-based embedded binary to enable anonymous network communication using genuine .onion addresses",
+                "Implemented a peer-to-peer (P2P) communication model eliminating the need for central servers",
+                "Applied Signal Protocol concepts, including X3DH key exchange and Double Ratchet algorithm, to achieve end-to-end encrypted messaging",
+                "Ensured forward secrecy and message confidentiality through per-message encryption",
+                "Secured local message storage using SQLCipher for encrypted database persistence",
+                "Implemented biometric authentication and secure key storage for protected application access",
+                "Added screen protection mechanisms to prevent screenshots and screen recording",
+                "Designed and developed a responsive, cross-platform mobile UI using Flutter and Dart",
+                "Followed clean code practices and modular architecture for maintainability and scalability",
+                "Implemented CI/CD pipelines to automate build and deployment workflows",
+                "Created comprehensive technical documentation covering architecture, security, and application workflows"
+            ],
+            "keywords": [
+                "Flutter",
+                "Dart",
+                "Tor Network",
+                "Peer-to-Peer Communication",
+                "Signal Protocol",
+                "End-to-End Encryption",
+                "SQLCipher",
+                "CI/CD",
+                "Mobile Application Security"
+            ],
+            "startDate": "2024-12",
+            "endDate": "",
+            "roles": [
+                "Flutter Developer"
+            ],
+            "type": "Academic Project"
+        },
+        {
+            "name": "CodeX & KryptoniteOS Mobile App UI/UX",
+            "description": "Designed complete UI/UX for chat and calling applications for CodeX and KryptoniteOS, focusing on usability, visual consistency, and modern mobile design standards.",
+            "highlights": [
+                "Created end-to-end UI/UX designs for chat and calling applications using Figma",
+                "Developed wireframes, interactive prototypes, and high-fidelity screens for messaging and call workflows",
+                "Designed intuitive user flows for sending/receiving messages, initiating calls, and managing contacts",
+                "Applied mobile-first design principles, visual hierarchy, and accessibility standards",
+                "Maintained design consistency with reusable components, typography, and color systems",
+                "Collaborated with developers to ensure accurate handoff and implementation of designs in mobile apps",
+                "Optimized layouts and interactions to enhance user experience and usability across devices"
+            ],
+            "keywords": [
+                "UI/UX Design",
+                "Figma",
+                "Mobile App Design",
+                "Chat Application UI",
+                "Calling Application UI",
+                "Wireframing",
+                "Prototyping",
+                "User Flows",
+                "Design Systems"
+            ],
+            "startDate": "2024-03",
+            "endDate": "2025-01",
+            "roles": [
+                "UI/UX Designer"
+            ],
+            "type": "Design Project"
+        }
+    ]
+}
