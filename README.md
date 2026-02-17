@@ -7,7 +7,7 @@ Automated system to generate high-quality resumes in HTML, PDF, and DOCX formats
 ### 1. Setup
 Clone the repository and install dependencies:
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/ahmadahlee/Resume.git
 cd Resume
 npm install
 ```
