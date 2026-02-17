@@ -97,7 +97,33 @@ def create_resume(json_file):
                     p = document.add_paragraph(h, style='List Bullet')
                     p.paragraph_format.left_indent = Pt(20)
             
-            document.add_paragraph().paragraph_format.space_after = Pt(2)
+            # Spacer between different jobs
+            document.add_paragraph().paragraph_format.space_after = Pt(8)
+        
+        # Larger spacer at the end of Experience section
+        document.add_paragraph().paragraph_format.space_after = Pt(15)
+
+    # Projects (Shared with Work in some themes, but checking explicitly)
+    if data.get('projects'):
+        add_section_header("Projects")
+        for project in data['projects']:
+            p = document.add_paragraph()
+            p.add_run(project.get('name', '')).bold = True
+            
+            p.paragraph_format.tab_stops.add_tab_stop(Pt(450), alignment=2)
+            p.add_run(f"\t{project.get('startDate', '')} - {project.get('endDate', 'Present')}").font.italic = True
+            
+            if project.get('description'):
+                document.add_paragraph(project['description'])
+            
+            if project.get('highlights'):
+                for h in project['highlights']:
+                    p = document.add_paragraph(h, style='List Bullet')
+                    p.paragraph_format.left_indent = Pt(20)
+            
+            document.add_paragraph().paragraph_format.space_after = Pt(8)
+        
+        document.add_paragraph().paragraph_format.space_after = Pt(15)
 
     # Education Section
     if data.get('education'):
@@ -110,7 +136,23 @@ def create_resume(json_file):
             p.add_run(f"\t{edu.get('startDate', '')} - {edu.get('endDate', '')}").font.italic = True
             
             p2 = document.add_paragraph(edu.get('studyType', '') + " " + edu.get('area', ''))
-            p2.paragraph_format.space_after = Pt(8)
+            p2.paragraph_format.space_after = Pt(12)
+        
+        document.add_paragraph().paragraph_format.space_after = Pt(15)
+
+    # Awards Section
+    if data.get('awards'):
+        add_section_header("Awards")
+        for award in data['awards']:
+            p = document.add_paragraph()
+            p.add_run(award.get('title', '')).bold = True
+            p.add_run(f" - {award.get('awarder', '')}")
+            
+            if award.get('summary'):
+                document.add_paragraph(award['summary'])
+            document.add_paragraph().paragraph_format.space_after = Pt(8)
+        
+        document.add_paragraph().paragraph_format.space_after = Pt(15)
 
     # Skills
     if data.get('skills'):
@@ -119,6 +161,29 @@ def create_resume(json_file):
             p = document.add_paragraph()
             p.add_run(f"{skill.get('name')}: ").bold = True
             p.add_run(", ".join(skill.get('keywords', [])))
+            p.paragraph_format.space_after = Pt(4)
+        
+        document.add_paragraph().paragraph_format.space_after = Pt(15)
+
+    # Interests
+    if data.get('interests'):
+        add_section_header("Interests")
+        for item in data['interests']:
+            p = document.add_paragraph()
+            p.add_run(f"{item.get('name')}: ").bold = True
+            p.add_run(", ".join(item.get('keywords', [])))
+            p.paragraph_format.space_after = Pt(4)
+        
+        document.add_paragraph().paragraph_format.space_after = Pt(15)
+
+    # Languages
+    if data.get('languages'):
+        add_section_header("Languages")
+        for lang in data['languages']:
+            p = document.add_paragraph()
+            p.add_run(f"{lang.get('language')}: ").bold = True
+            p.add_run(lang.get('fluency', ''))
+            p.paragraph_format.space_after = Pt(4)
 
     # Save
     document.save('ahmad_ali_resume.docx')

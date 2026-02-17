@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build": "node scripts/build_html.js && node src/generate_bundled_resume.js",
-    "gen": "python3 scripts/automate.py"
+    "gen": "python3 scripts/automate.py",
+    "enhance": "python3 scripts/enhance.py"
   }
 }

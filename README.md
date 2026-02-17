@@ -20,7 +20,15 @@ Run the following command to generate your resume in all formats (HTML, PDF, DOC
 ```bash
 npm run gen "Your_Folder_Name"
 ```
-*Example: `npm run gen "Ahmad_Ali_2026"`*
+### 4. AI Content Enhancement (Optional)
+Professionalize your resume content automatically:
+1. Set your AI API key: `export AI_API_KEY='your_key_here'`
+2. Run the enhancement tool:
+```bash
+npm run enhance
+```
+> [!WARNING]
+> This command will **overwrite** your existing `resume.json` with the professionally enhanced version. It is recommended to keep a backup of your original file before running this.
 
 ## 🛠 Project Structure
 
